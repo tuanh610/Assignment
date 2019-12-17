@@ -1,0 +1,10 @@
+*The unit test is written with Junit 4 and run with Eclipse
+*To install JUnit 4: 
+sudo apt-get install junit4  
+*To install eclipse: 
+Go to eclipse website and download .tar.gz file, then extract to the desired folder 
+*To use JUnit4 with Eclipse: 
+1.In Eclipse, click File->Properties->Java Build Path->Libraries, add in JUnit4 library (should be in the adding list if JUnit 4 is installed 
+2. Run the unit test file as JUnit file (with Elcipse)
+3. If has error on load the jUnit module -> Click Run->Run Configuration->Select unit test file on the left panel->In the right panel select Arguments tab. In VM arguments, add: --add-modules=ALL-MODULE-PATH -> Try step 2 again
+
